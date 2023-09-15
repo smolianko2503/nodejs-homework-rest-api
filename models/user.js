@@ -22,6 +22,7 @@ const userSchema = new Schema(
       match: regexpEmail,
       required: [true, "Email is required"],
       unique: true,
+      
     },
     subscription: {
       type: String,
